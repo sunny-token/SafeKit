@@ -9,7 +9,8 @@ Pod::Spec.new do |s|
   s.author       = { "sunhua" => "sunhua@163.com" }
   s.source       = { :git => "https://github.com/sunny-token/SafeKit.git", :commit => "465faf02260f06ddf89697c63b87f45a64e6a848"}
   s.requires_arc = false
-  s.requires_arc = 'safeKit/ARC'
-
   s.source_files = "safeKit/**/*.{h,m}"
+
+  s.requires_arc = 'safeKit/**/*.{h,m}'
+
 end
