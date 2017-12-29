@@ -11,7 +11,7 @@
 #import <QuartzCore/CADisplayLink.h>
 
 @interface WeakObjectContainer : NSObject
-@property (nonatomic, readonly, weak) id weakObject;
+@property (nonatomic, weak) id weakObject;
 @end
 
 @implementation WeakObjectContainer

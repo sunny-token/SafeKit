@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		660DEC331FF4E40D00EE19C3 /* SafeCallSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 660DEC2B1FF4E3FE00EE19C3 /* SafeCallSelector.m */; };
-		660DEC351FF4E40D00EE19C3 /* SafeContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 660DEC241FF4E3FE00EE19C3 /* SafeContainer.m */; };
-		660DEC371FF4E40D00EE19C3 /* SafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 660DEC2C1FF4E3FE00EE19C3 /* SafeKit.m */; };
-		660DEC391FF4E40D00EE19C3 /* SafeObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 660DEC251FF4E3FE00EE19C3 /* SafeObserver.m */; };
-		660DEC3B1FF4E40D00EE19C3 /* SafeTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 660DEC2E1FF4E3FE00EE19C3 /* SafeTimer.m */; };
-		660DEC3D1FF4E40D00EE19C3 /* SafeZombieProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 660DEC221FF4E3FE00EE19C3 /* SafeZombieProxy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		660DEC3F1FF4E40D00EE19C3 /* SafeZombieSniffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 660DEC2D1FF4E3FE00EE19C3 /* SafeZombieSniffer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		660DEC651FF60BDA00EE19C3 /* SafeZombieSniffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 660DEC571FF60BDA00EE19C3 /* SafeZombieSniffer.m */; };
+		660DEC661FF60BDA00EE19C3 /* SafeZombieProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 660DEC581FF60BDA00EE19C3 /* SafeZombieProxy.m */; };
+		660DEC671FF60BDA00EE19C3 /* SafeObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 660DEC5B1FF60BDA00EE19C3 /* SafeObserver.m */; };
+		660DEC681FF60BDA00EE19C3 /* SafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 660DEC5C1FF60BDA00EE19C3 /* SafeKit.m */; };
+		660DEC691FF60BDA00EE19C3 /* SafeContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 660DEC5D1FF60BDA00EE19C3 /* SafeContainer.m */; };
+		660DEC6A1FF60BDA00EE19C3 /* SafeCallSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 660DEC5E1FF60BDA00EE19C3 /* SafeCallSelector.m */; };
+		660DEC6B1FF60BDA00EE19C3 /* SafeTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 660DEC631FF60BDA00EE19C3 /* SafeTimer.m */; };
 		848FB7911F975664009323C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 848FB7901F975664009323C1 /* AppDelegate.m */; };
 		848FB7941F975664009323C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848FB7931F975664009323C1 /* ViewController.m */; };
 		848FB7971F975664009323C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848FB7951F975664009323C1 /* Main.storyboard */; };
@@ -24,20 +24,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		660DEC211FF4E3FE00EE19C3 /* SafeObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafeObserver.h; sourceTree = "<group>"; };
-		660DEC221FF4E3FE00EE19C3 /* SafeZombieProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeZombieProxy.m; sourceTree = "<group>"; };
-		660DEC231FF4E3FE00EE19C3 /* SafeZombieSniffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafeZombieSniffer.h; sourceTree = "<group>"; };
-		660DEC241FF4E3FE00EE19C3 /* SafeContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeContainer.m; sourceTree = "<group>"; };
-		660DEC251FF4E3FE00EE19C3 /* SafeObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeObserver.m; sourceTree = "<group>"; };
-		660DEC261FF4E3FE00EE19C3 /* SafeContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafeContainer.h; sourceTree = "<group>"; };
-		660DEC271FF4E3FE00EE19C3 /* SafeCallSelector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafeCallSelector.h; sourceTree = "<group>"; };
-		660DEC2A1FF4E3FE00EE19C3 /* SafeTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafeTimer.h; sourceTree = "<group>"; };
-		660DEC2B1FF4E3FE00EE19C3 /* SafeCallSelector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeCallSelector.m; sourceTree = "<group>"; };
-		660DEC2C1FF4E3FE00EE19C3 /* SafeKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeKit.m; sourceTree = "<group>"; };
-		660DEC2D1FF4E3FE00EE19C3 /* SafeZombieSniffer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeZombieSniffer.m; sourceTree = "<group>"; };
-		660DEC2E1FF4E3FE00EE19C3 /* SafeTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeTimer.m; sourceTree = "<group>"; };
-		660DEC2F1FF4E3FE00EE19C3 /* SafeZombieProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafeZombieProxy.h; sourceTree = "<group>"; };
-		660DEC301FF4E3FE00EE19C3 /* SafeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafeKit.h; sourceTree = "<group>"; };
+		660DEC561FF60BDA00EE19C3 /* SafeZombieProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeZombieProxy.h; sourceTree = "<group>"; };
+		660DEC571FF60BDA00EE19C3 /* SafeZombieSniffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafeZombieSniffer.m; sourceTree = "<group>"; };
+		660DEC581FF60BDA00EE19C3 /* SafeZombieProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafeZombieProxy.m; sourceTree = "<group>"; };
+		660DEC591FF60BDA00EE19C3 /* SafeZombieSniffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeZombieSniffer.h; sourceTree = "<group>"; };
+		660DEC5B1FF60BDA00EE19C3 /* SafeObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafeObserver.m; sourceTree = "<group>"; };
+		660DEC5C1FF60BDA00EE19C3 /* SafeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafeKit.m; sourceTree = "<group>"; };
+		660DEC5D1FF60BDA00EE19C3 /* SafeContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafeContainer.m; sourceTree = "<group>"; };
+		660DEC5E1FF60BDA00EE19C3 /* SafeCallSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafeCallSelector.m; sourceTree = "<group>"; };
+		660DEC5F1FF60BDA00EE19C3 /* SafeTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeTimer.h; sourceTree = "<group>"; };
+		660DEC601FF60BDA00EE19C3 /* SafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeKit.h; sourceTree = "<group>"; };
+		660DEC611FF60BDA00EE19C3 /* SafeObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeObserver.h; sourceTree = "<group>"; };
+		660DEC621FF60BDA00EE19C3 /* SafeContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeContainer.h; sourceTree = "<group>"; };
+		660DEC631FF60BDA00EE19C3 /* SafeTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafeTimer.m; sourceTree = "<group>"; };
+		660DEC641FF60BDA00EE19C3 /* SafeCallSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeCallSelector.h; sourceTree = "<group>"; };
 		848FB78C1F975664009323C1 /* timerLeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timerLeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848FB78F1F975664009323C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		848FB7901F975664009323C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,25 +63,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		660DEC101FF4E3E400EE19C3 /* safeKit */ = {
+		660DEC551FF60BDA00EE19C3 /* safeKit */ = {
 			isa = PBXGroup;
 			children = (
-				660DEC271FF4E3FE00EE19C3 /* SafeCallSelector.h */,
-				660DEC2B1FF4E3FE00EE19C3 /* SafeCallSelector.m */,
-				660DEC261FF4E3FE00EE19C3 /* SafeContainer.h */,
-				660DEC241FF4E3FE00EE19C3 /* SafeContainer.m */,
-				660DEC301FF4E3FE00EE19C3 /* SafeKit.h */,
-				660DEC2C1FF4E3FE00EE19C3 /* SafeKit.m */,
-				660DEC211FF4E3FE00EE19C3 /* SafeObserver.h */,
-				660DEC251FF4E3FE00EE19C3 /* SafeObserver.m */,
-				660DEC2A1FF4E3FE00EE19C3 /* SafeTimer.h */,
-				660DEC2E1FF4E3FE00EE19C3 /* SafeTimer.m */,
-				660DEC2F1FF4E3FE00EE19C3 /* SafeZombieProxy.h */,
-				660DEC221FF4E3FE00EE19C3 /* SafeZombieProxy.m */,
-				660DEC231FF4E3FE00EE19C3 /* SafeZombieSniffer.h */,
-				660DEC2D1FF4E3FE00EE19C3 /* SafeZombieSniffer.m */,
+				660DEC561FF60BDA00EE19C3 /* SafeZombieProxy.h */,
+				660DEC571FF60BDA00EE19C3 /* SafeZombieSniffer.m */,
+				660DEC581FF60BDA00EE19C3 /* SafeZombieProxy.m */,
+				660DEC591FF60BDA00EE19C3 /* SafeZombieSniffer.h */,
+				660DEC5A1FF60BDA00EE19C3 /* ARC */,
 			);
 			path = safeKit;
+			sourceTree = SOURCE_ROOT;
+		};
+		660DEC5A1FF60BDA00EE19C3 /* ARC */ = {
+			isa = PBXGroup;
+			children = (
+				660DEC5B1FF60BDA00EE19C3 /* SafeObserver.m */,
+				660DEC5C1FF60BDA00EE19C3 /* SafeKit.m */,
+				660DEC5D1FF60BDA00EE19C3 /* SafeContainer.m */,
+				660DEC5E1FF60BDA00EE19C3 /* SafeCallSelector.m */,
+				660DEC5F1FF60BDA00EE19C3 /* SafeTimer.h */,
+				660DEC601FF60BDA00EE19C3 /* SafeKit.h */,
+				660DEC611FF60BDA00EE19C3 /* SafeObserver.h */,
+				660DEC621FF60BDA00EE19C3 /* SafeContainer.h */,
+				660DEC631FF60BDA00EE19C3 /* SafeTimer.m */,
+				660DEC641FF60BDA00EE19C3 /* SafeCallSelector.h */,
+			);
+			path = ARC;
 			sourceTree = "<group>";
 		};
 		66A5C0F71FDE37FD0054BB48 /* Frameworks */ = {
@@ -111,7 +119,7 @@
 		848FB78E1F975664009323C1 /* timerLeak */ = {
 			isa = PBXGroup;
 			children = (
-				660DEC101FF4E3E400EE19C3 /* safeKit */,
+				660DEC551FF60BDA00EE19C3 /* safeKit */,
 				848FB78F1F975664009323C1 /* AppDelegate.h */,
 				848FB7901F975664009323C1 /* AppDelegate.m */,
 				848FB7921F975664009323C1 /* ViewController.h */,
@@ -198,17 +206,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				660DEC331FF4E40D00EE19C3 /* SafeCallSelector.m in Sources */,
-				660DEC351FF4E40D00EE19C3 /* SafeContainer.m in Sources */,
-				660DEC371FF4E40D00EE19C3 /* SafeKit.m in Sources */,
-				660DEC391FF4E40D00EE19C3 /* SafeObserver.m in Sources */,
-				660DEC3B1FF4E40D00EE19C3 /* SafeTimer.m in Sources */,
-				660DEC3D1FF4E40D00EE19C3 /* SafeZombieProxy.m in Sources */,
-				660DEC3F1FF4E40D00EE19C3 /* SafeZombieSniffer.m in Sources */,
 				848FB7941F975664009323C1 /* ViewController.m in Sources */,
 				848FB7A71F98329C009323C1 /* NextViewController.m in Sources */,
 				848FB79F1F975664009323C1 /* main.m in Sources */,
+				660DEC681FF60BDA00EE19C3 /* SafeKit.m in Sources */,
+				660DEC661FF60BDA00EE19C3 /* SafeZombieProxy.m in Sources */,
+				660DEC671FF60BDA00EE19C3 /* SafeObserver.m in Sources */,
 				848FB7911F975664009323C1 /* AppDelegate.m in Sources */,
+				660DEC6B1FF60BDA00EE19C3 /* SafeTimer.m in Sources */,
+				660DEC691FF60BDA00EE19C3 /* SafeContainer.m in Sources */,
+				660DEC651FF60BDA00EE19C3 /* SafeZombieSniffer.m in Sources */,
+				660DEC6A1FF60BDA00EE19C3 /* SafeCallSelector.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
